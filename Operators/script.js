@@ -80,3 +80,20 @@ console.log(x >= y); // logs true
 
 
 // logical operators
+
+// Logical AND (&&) operator, returns true if both operands are true
+let t = true;
+let o = true;
+const answer = (t && o);
+console.log(answer);  //logs true
+
+// Logical OR (||) operator, returns true if at least one of the operands is true
+let m = true;
+let n = false;
+const result1 = (m || n);
+console.log(result1); // logs true
+
+//Logical NOT (!) operator, returns true if the operand is false and vice versa
+let r = true;
+const result2 = !r;
+console.log(result2); // logs false
