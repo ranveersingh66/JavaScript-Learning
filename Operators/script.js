@@ -51,3 +51,32 @@ console.log(u)
 // a = a / b;     a /= b;
 // a = a % b;     a %= b;
 // a = a ** b;    a **= b;
+
+// comparison operators (==)
+let x = 10;
+let y = 5;
+console.log(x == y); // logs false
+
+// (===) strict equality operator, compares between two values and their data types
+console.log(x === y); // logs false
+
+// (!=) Not equal operator, compares between two values and returns true if they are not equal
+console.log(x != y); // logs true
+
+// (!==) Strict not equal operator, compares between two values and their data types
+console.log(x !== y); // logs true
+
+// (<) Less than operator, compares between two values and returns true if the first is less than the second
+console.log(x < y); // logs false
+
+// (>) Greater than operator, compares between two values and returns true if the first is greater than the second
+console.log(x > y); // logs true
+
+// (<=) Less than or equal operator, compares between two values and returns true if the first is less than or equal to the second
+console.log(x <= y); // logs false
+
+// (>=) Greater than or equal operator, compares between two values and returns true if the first is greater than or equal to the second
+console.log(x >= y); // logs true
+
+
+// logical operators
