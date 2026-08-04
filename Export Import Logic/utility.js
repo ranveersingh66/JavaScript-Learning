@@ -5,3 +5,7 @@ export function addition(a, b, c) {
 export function multiply(q, w) {
   return q * w;
 }
+
+export function subtract(x, y) {
+  return x - y;
+}
