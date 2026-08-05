@@ -9,4 +9,4 @@ console.log(result1); // logs 46
 
 import {subtract as sub} from './utility.js';
 const result2 = sub(23, 2);
-console.log(result2); // logs 21
+console.log(result2); // logs 21 
