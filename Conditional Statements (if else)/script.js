@@ -1,4 +1,4 @@
-const candidateAge = 22;
+// const candidateAge = 22;
 // // If condition
 // if (candidateAge >= 18) {
 //   console.log("You are eligible to vote!")
@@ -26,13 +26,28 @@ const candidateAge = 22;
 
 // else if ladder condition
 
-if (candidateAge >= 21) {
-  console.log("You are eligible to vote and drink alcohol!")
+// if (candidateAge >= 21) {
+//   console.log("You are eligible to vote and drink alcohol!")
+// }
+// else if (candidateAge >= 18) {
+//   console.log("You are eligible to vote!")
+// }
+// else {
+//   console.log("You are not eligible to vote or drink alcohol!")
+// }
+
+const grade = 30;
+
+if (grade >= 90) {
+  console.log("You got an A!")
 }
-else if (candidateAge >= 18) {
-  
+else if (grade >= 75) {
+  console.log ("You got a B!")
+}
+else if (grade >= 60) {
+  console.log("You got a C!")
 }
 else {
-  console.log("You are not eligible to vote or drink alcohol!")
+  console.log("Need to improve!")
 }
 
