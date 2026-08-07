@@ -73,3 +73,9 @@ if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
 else {
   console.log("Not a leap year!")
 }
+
+// ternary operator
+
+const Age = 22;
+Age >= 18 ? console.log("You are eligible") : console.log("You are not eligible")
+// if the condition is true, the first statement will be executed, otherwise the second statement will be executed
