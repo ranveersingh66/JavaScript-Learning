@@ -14,3 +14,7 @@
 // for(x; x<6; x+2){
 //     console.log(x); // Output: 1, 3, 5
 // }
+
+for(a=15; a>0; a--){
+    console.log(a); // Output: 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+}
