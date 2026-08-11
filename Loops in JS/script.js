@@ -5,6 +5,12 @@
  //     // code to be executed
  // }
 
- for (let i = 0; i < 5; i++) {
-     console.log("Iteration number: " + i);
- }
+ // 
+// for(z=1; z<3; z++) {
+//     console.log(z); // Output: 1, 2
+// }
+
+// const x = 1;
+// for(x; x<6; x+2){
+//     console.log(x); // Output: 1, 3, 5
+// }
