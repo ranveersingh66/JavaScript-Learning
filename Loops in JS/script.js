@@ -34,9 +34,18 @@
 //     console.log(z); // Output: 5, 10, 15, 20, 25, 30, 35, 40, 45, 50
 // }
 
+// while loops in JavaScript
 let t = 0; 
 while(t<10){ // The while loop is a control structure that allows you to repeat a block of code as long as a specified condition is true. The syntax of a while loop is as follows:
     console.log(t);
     t++; // Output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 }
+// The while loop consists of a condition that is evaluated before each iteration. If the condition is true, the block of code inside the loop is executed. If the condition is false, the loop terminates and the program continues with the next statement after the loop.
 
+// do while loops in JavaScript
+let y = 5;
+do{
+    console.log(y);
+    y++; // Output: 5, 6, 7, 8, 9 
+} while(y<10);
+// The do...while loop is similar to the while loop, but it guarantees that the block of code will be executed at least once, even if the condition is false. 
