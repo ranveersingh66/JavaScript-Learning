@@ -49,3 +49,25 @@ do{
     y++; // Output: 5, 6, 7, 8, 9 
 } while(y<10);
 // The do...while loop is similar to the while loop, but it guarantees that the block of code will be executed at least once, even if the condition is false. 
+
+// Continue and break statements in JavaScript
+// The continue statement is used to skip the current iteration of a loop and move on to the next iteration. The break statement is used to exit a loop prematurely, 
+// regardless of whether the loop condition is true or false.
+
+let i = 0;
+while(i<10){
+  i++;
+  if (i==5){
+    continue; // Skip the iteration when i is equal to 5
+  }
+  console.log(i); // Output: 1, 2, 3, 4, 6, 7, 8, 9, 10
+}
+
+let v = 0;
+while(v<10){
+  v++;
+  if (v==5){
+    break; // Exit the loop when v is equal to 5
+  }
+  console.log(v); // Output: 1, 2, 3, 4
+}
