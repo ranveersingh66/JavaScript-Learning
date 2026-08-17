@@ -83,3 +83,15 @@ for(i=0; i<=10; i++){
     console.log("even no!")
   }
 }
+
+for(x=0; x<=10; x++){
+  if(x%2 == 0){
+    console.log(x)
+  }
+}
+
+let sum = 0;
+for(y=1; y<=50; y++){
+  sum += y;
+}
+console.log("the total sum is: " + sum)
