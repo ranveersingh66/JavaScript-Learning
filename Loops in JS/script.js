@@ -75,3 +75,4 @@
 for(e = 1; e<=6; e++){
   console.log(e)
 }
+
