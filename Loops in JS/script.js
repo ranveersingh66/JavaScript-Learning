@@ -35,39 +35,43 @@
 // }
 
 // while loops in JavaScript
-let t = 0; 
-while(t<10){ // The while loop is a control structure that allows you to repeat a block of code as long as a specified condition is true. The syntax of a while loop is as follows:
-    console.log(t);
-    t++; // Output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-}
-// The while loop consists of a condition that is evaluated before each iteration. If the condition is true, the block of code inside the loop is executed. If the condition is false, the loop terminates and the program continues with the next statement after the loop.
+// let t = 0; 
+// while(t<10){ // The while loop is a control structure that allows you to repeat a block of code as long as a specified condition is true. The syntax of a while loop is as follows:
+//     console.log(t);
+//     t++; // Output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+// }
+// // The while loop consists of a condition that is evaluated before each iteration. If the condition is true, the block of code inside the loop is executed. If the condition is false, the loop terminates and the program continues with the next statement after the loop.
 
-// do while loops in JavaScript
-let y = 5;
-do{
-    console.log(y);
-    y++; // Output: 5, 6, 7, 8, 9 
-} while(y<10);
-// The do...while loop is similar to the while loop, but it guarantees that the block of code will be executed at least once, even if the condition is false. 
+// // do while loops in JavaScript
+// let y = 5;
+// do{
+//     console.log(y);
+//     y++; // Output: 5, 6, 7, 8, 9 
+// } while(y<10);
+// // The do...while loop is similar to the while loop, but it guarantees that the block of code will be executed at least once, even if the condition is false. 
 
-// Continue and break statements in JavaScript
-// The continue statement is used to skip the current iteration of a loop and move on to the next iteration. The break statement is used to exit a loop prematurely, 
-// regardless of whether the loop condition is true or false.
+// // Continue and break statements in JavaScript
+// // The continue statement is used to skip the current iteration of a loop and move on to the next iteration. The break statement is used to exit a loop prematurely, 
+// // regardless of whether the loop condition is true or false.
 
-let i = 0;
-while(i<10){
-  i++;
-  if (i==5){
-    continue; // Skip the iteration when i is equal to 5
-  }
-  console.log(i); // Output: 1, 2, 3, 4, 6, 7, 8, 9, 10
-}
+// let i = 0;
+// while(i<10){
+//   i++;
+//   if (i==5){
+//     continue; // Skip the iteration when i is equal to 5
+//   }
+//   console.log(i); // Output: 1, 2, 3, 4, 6, 7, 8, 9, 10
+// }
 
-let v = 0;
-while(v<10){
-  v++;
-  if (v==5){
-    break; // Exit the loop when v is equal to 5
-  }
-  console.log(v); // Output: 1, 2, 3, 4
+// let v = 0;
+// while(v<10){
+//   v++;
+//   if (v==5){
+//     break; // Exit the loop when v is equal to 5
+//   }
+//   console.log(v); // Output: 1, 2, 3, 4
+// }
+
+for(e = 1; e<=6; e++){
+  console.log(e)
 }
