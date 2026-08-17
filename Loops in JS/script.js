@@ -72,7 +72,14 @@
 //   console.log(v); // Output: 1, 2, 3, 4
 // }
 
-for(e = 1; e<=6; e++){
-  console.log(e)
-}
+// for(e = 1; e<=6; e++){
+//   console.log(e)
+// }
 
+for(i=0; i<=10; i++){
+  if(i%2 !==0) {
+    console.log(i);
+  } else {
+    console.log("even no!")
+  }
+}
