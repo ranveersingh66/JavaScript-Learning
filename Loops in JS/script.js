@@ -92,6 +92,7 @@ for(x=0; x<=10; x++){
 
 let sum = 0;
 for(y=1; y<=50; y++){
-  sum += y;
+  sum    += y;
 }
 console.log("the total sum is: " + sum)
+
