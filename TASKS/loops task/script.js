@@ -14,8 +14,7 @@ if(prime>1 && prime%1 ===0 && prime%n === 0){
   console.log("Yes!,", n, "is a prime number")
 } else {"Its not a prime number!"}
 // All factors of n
-let fac = n
-for(fac; fac<=)
+
 
 
 
