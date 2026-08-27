@@ -3,16 +3,19 @@ const n = 12;
 // Sum of first n numbers
 let sum = (n*(n+1))/2
   console.log("Sum of first n numbers:", sum)
-
-// table of n
-for(x=12; x<=120; x+=12){
-  console.log(x)
+// Table of n
+let tab = n
+for(x=1; x<=10; x++){
+  console.log(tab+"x" + x + "=" + (tab*x));
 }
-
-if(n == ){
-
-}
-
+// prime
+let prime = n
+if(prime>1 && prime%1 ===0 && prime%n === 0){
+  console.log("Yes!,", n, "is a prime number")
+} else {"Its not a prime number!"}
+// All factors of n
+let fac = n
+for(fac; fac<=)
 
 
 
