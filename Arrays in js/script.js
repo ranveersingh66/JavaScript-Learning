@@ -32,7 +32,10 @@ let marks = [12, 23, 45, 98, 75, 1, 98, 11]
 let SubarrMarks = marks.slice(1,5) // prints the values between index number 2 and 6
 console.log(SubarrMarks);
 
-
+let lights = ["red", "green", "yellow", "blue"]
+lights.push("purple")
+lights.unshift("black")
+console.log(lights);
 
 
 
