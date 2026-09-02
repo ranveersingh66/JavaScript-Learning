@@ -12,8 +12,18 @@ for(x=1; x<=10; x++){
 let prime = n
 if(prime>1 && prime%1 ===0 && prime%n === 0){
   console.log("Yes!,", n, "is a prime number")
-} else {"Its not a prime number!"}
-// All factors of n
+} else {
+  console.log("Its not a prime number!")
+}
+
+let factor = n
+for(factor=1; factor<=n; factor++){
+  if(n%factor === 0){
+    console.log(factor)
+  }
+}
+
+let 
 
 
 
