@@ -51,3 +51,28 @@ let mul = function(b, v){
   console.log("Multiplication result:", result);
 }
 console.log(mul(12, 6)); // it will return undefined because the function does not return anything. It only console logs the result.
+
+
+// Nested Functions
+// A function can be defined inside another function. The inner function can access the variables of the outer function. The inner function can also be returned from the outer function and can be called outside the outer function.
+
+function createGreeting(name){
+  function sayHello(){
+    return "hello, " + name;
+  }
+      return sayHello();
+}
+
+console.log(createGreeting("ranveer")); 
+
+function addSquare(x, y){
+  const a = square(x)
+  const b = square(y)
+
+  function square(num){
+    return num*num;
+  }
+  return a+b
+}
+
+console.log((addSquare( 2, 3)));
