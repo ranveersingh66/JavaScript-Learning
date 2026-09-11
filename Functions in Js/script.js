@@ -76,3 +76,11 @@ function addSquare(x, y){
 }
 
 console.log((addSquare( 2, 3)));
+
+function find(p, o){
+  const ans = p / o
+  console.log(ans);
+  
+}
+
+find(12, 6)
