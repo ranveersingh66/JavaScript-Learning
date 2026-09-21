@@ -27,7 +27,10 @@ console.log("Sum of all elements: ", sum);
 
 // }
 
-const oddnum = arr.filter()
+const oddnum = arr.filter(arr => arr % 2 !== 0);
+const oddcount = oddnum.length;
+console.log(oddcount);
+
 
 
 
