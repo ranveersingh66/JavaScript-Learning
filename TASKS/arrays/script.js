@@ -1,26 +1,31 @@
-const arr = [22, 98, 56, 74, 88]
+// Max value in an array
+function maxArr(arr) {
+    let max = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    return max;
+}
 
-// Maximum number
-let maxVal = arr.sort()
-console.log("Maximum value: ", maxVal[4]);
+// Sum 
+function calculateSum(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
 
-// Sum of all numbers
-let a = arr[0];
-let b = arr[1];
-let c = arr[2];
-let d = arr[3];
-let e = arr[4];
-const sum = a + b + c + d + e
-console.log("Sum of all elements: ", sum);
-
-// Odd number count
-const oddnum = arr.filter(arr => arr % 2 !== 0);
-const oddcount = oddnum.length;
-console.log("Odd numbers in this array: ", oddcount);
-
-
-
-
-
-
-
+// Odd numbers
+function countOdds(arr) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        // Checks if the number is not divisible by 2
+        if (arr[i] % 2 !== 0) {
+            count++;
+        }
+    }
+    return count;
+}
