@@ -88,4 +88,10 @@ find(12, 6)
 sumation(12, 12)
 
 
+function newfunc(c, m){
+  const an = (c+m)/2
+  console.log(an);
+  
+}
 
+newfunc(12, 12)
