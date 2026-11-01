@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Main Container - Centered using Flexbox */
+.main-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Left Section - Image display */
+.left-section {
+    flex: 1;
+    background-color: #0099ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+}
+
+/* Form Section - Centered layout using Flexbox */
+.form-section {
+    flex: 1;
+    background-color: #f4f9fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-header h2 {
+    font-size: 2rem;
+    color: #2b2b2b;
+    margin-bottom: 0.4rem;
+}
+
+.form-header p {
+    font-size: 0.9rem;
+    color: #888888;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+
+.input-group label {
+    font-size: 0.8rem;
+    color: #777777;
+    margin-bottom: 0.4rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+.input-group input::placeholder {
+    color: #cccccc;
+}
+
+.forgot-pass {
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+
+.forgot-pass a {
+    font-size: 0.75rem;
+    color: #666666;
+    text-decoration: none;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #00a2ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 162, 255, 0.3);
+}
+
+.login-btn:hover {
+    background-color: #0088e0;
+}
+
+.form-footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.form-footer p {
+    font-size: 0.8rem;
+    color: #777777;
+}
+
+.form-footer a {
+    color: #00a2ff;
+    text-decoration: none;
+    font-weight: 600;
+}
