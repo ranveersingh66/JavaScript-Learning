@@ -1,2 +1,2 @@
-# JavaScript-Learning
-My JavaScript learning journey with exercises and projects.  
+# MERN STACK-Learning
+My MERN learning journey with exercises and projects.  
