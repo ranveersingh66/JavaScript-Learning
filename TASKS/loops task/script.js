@@ -53,9 +53,9 @@ while (tempArm > 0) {
 }
 
 if (armstrongSum === n) {
-  console.log("Is it an Armstrong number? Yes");
+  console.log("Yes! Is it an Armstrong number");
 } else {
-  console.log("Is it an Armstrong number? No");
+  console.log("No, Its not an Armstrong number");
 }
 
 
