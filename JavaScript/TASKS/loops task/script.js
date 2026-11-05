@@ -57,5 +57,3 @@ if (armstrongSum === n) {
 } else {
   console.log("No, Its not an Armstrong number");
 }
-
-
